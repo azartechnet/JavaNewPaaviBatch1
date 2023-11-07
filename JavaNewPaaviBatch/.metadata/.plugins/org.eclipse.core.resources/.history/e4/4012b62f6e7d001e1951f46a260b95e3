@@ -1,0 +1,18 @@
+
+public class Sample1 
+{
+    void fun1()
+    {
+    	int pid=1001;
+    	System.out.println(pid);
+    }
+    void fun2()
+    {
+    	System.out.println(pid);
+    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
