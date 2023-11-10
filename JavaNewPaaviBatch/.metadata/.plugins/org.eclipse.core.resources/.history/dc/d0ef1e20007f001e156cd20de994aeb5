@@ -1,6 +1,14 @@
 
-public class Sample {
+public class RunTimeInput {
 
+	void input()
+	{
+		
+	}
+	void display()
+	{
+		
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
