@@ -1,0 +1,28 @@
+import java.io.DataInputStream;
+
+class Demo
+{
+	int productid,salary;
+	String productname;
+	DataInputStream dis=new DataInputStream(System.in);
+	void input()
+	{
+	   System.out.println("Enter the ProductId and Salary::");
+	   productid=Integer.parseInt(dis.readLine());
+	   salary=Integer.parseInt(dis.readLine());
+	   System.out.println("Enter the ProductName is::");
+	   productname=dis.readLine();
+	}
+	void display()
+	{
+		
+	}
+}
+public class DataInputStreamP1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

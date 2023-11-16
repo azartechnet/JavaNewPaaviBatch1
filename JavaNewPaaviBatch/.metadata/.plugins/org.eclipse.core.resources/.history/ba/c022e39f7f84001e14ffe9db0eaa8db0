@@ -1,0 +1,22 @@
+class Demo
+{
+	int productid,salary;
+	String productname;
+	
+	void input()
+	{
+		
+	}
+	void display()
+	{
+		
+	}
+}
+public class DataInputStreamP1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
