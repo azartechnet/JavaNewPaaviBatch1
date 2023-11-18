@@ -1,0 +1,15 @@
+class Sample12
+{
+	void arithmeticOperator()
+	{
+		int a1=10,b1=20;
+	}
+}
+public class Operators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

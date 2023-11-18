@@ -1,0 +1,20 @@
+class Sample12
+{
+	void arithmeticOperator()
+	{
+		int a1=10,b1=20;
+		System.out.println("Addition::"+(a1+b1));
+		System.out.println("Sub::"+(a1-b1));
+		System.out.println("Multiple::"+(a1*b1));
+		System.out.println("Division is::"+(a1/b1));
+		System.out.println("Module::"+a1%b1);
+	}
+}
+public class Operators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
