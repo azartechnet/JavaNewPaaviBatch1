@@ -28,16 +28,10 @@ class Sample12
 	void incrOrDecr()
 	{
 	   int a=2;
-	   a=a+3;//post increment a--;
+	   a++;//post increment
 	   System.out.println("Post Increment::"+a);
-	   ++a;//pre increment  --a;
+	   ++a;//pre increment
 	   System.out.println("Pre Increment::"+a);
-	}
-	void ternaryOperator()
-	{
-		int res,a=100,b=200;
-		res=(a>b)? a:b;
-		System.out.println("Your Big value is::"+res);
 	}
 }
 public class Operators {
@@ -47,8 +41,7 @@ public class Operators {
 		Sample12 f1=new Sample12();
 		//f1.arithmeticOperator();
 		//f1.relationOperator();
-		//f1.incrOrDecr();
-		f1.ternaryOperator();
+		f1.incrOrDecr();
 	}
 
 }

@@ -47,8 +47,7 @@ public class Operators {
 		Sample12 f1=new Sample12();
 		//f1.arithmeticOperator();
 		//f1.relationOperator();
-		//f1.incrOrDecr();
-		f1.ternaryOperator();
+		f1.incrOrDecr();
 	}
 
 }
