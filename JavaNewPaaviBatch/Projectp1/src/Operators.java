@@ -39,6 +39,16 @@ class Sample12
 		res=(a>b)? a:b;
 		System.out.println("Your Big value is::"+res);
 	}
+	void bitwise()
+	{
+		int a=3,b=2;
+		System.out.println("Bitwise AND:"+(a&b));
+		System.out.println("Bitwise OR:"+(a|b));
+		System.out.println("Bitwise LS:"+(a<<1));
+		System.out.println("Bitwise RS:"+(a>>1));
+		System.out.println("Bitwise XOR:"+(a^b));
+		
+	}
 }
 public class Operators {
 
@@ -48,7 +58,8 @@ public class Operators {
 		//f1.arithmeticOperator();
 		//f1.relationOperator();
 		//f1.incrOrDecr();
-		f1.ternaryOperator();
+		//f1.ternaryOperator();
+		f1.bitwise();
 	}
 
 }
