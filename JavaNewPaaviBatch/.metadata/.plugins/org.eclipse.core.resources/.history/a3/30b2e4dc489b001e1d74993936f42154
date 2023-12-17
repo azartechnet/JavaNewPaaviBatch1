@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ControlStatement {
+
+	int pid;
+	Scanner sc=new Scanner(System.in);
+	void get1()
+	{
+		
+	}
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

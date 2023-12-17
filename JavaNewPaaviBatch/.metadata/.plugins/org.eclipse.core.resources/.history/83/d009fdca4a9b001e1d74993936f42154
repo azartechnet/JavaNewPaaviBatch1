@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class ControlStatement {
+
+	int pid;
+	Scanner sc=new Scanner(System.in);
+	void get1()
+	{
+		System.out.println("Enter the pid is::");
+		pid=sc.nextInt();
+		if(pid==1001)
+		{
+			System.out.println("Your Pid is::equal::"+pid);
+		}
+		else
+		{
+			System.out.println("Your Pid is::NotEqual::"+pid);
+		}
+	}
+	public static void main(String[] args) {
+		
+		ControlStatement s1=new ControlStatement();
+		s1.get1();
+
+	}
+
+}
