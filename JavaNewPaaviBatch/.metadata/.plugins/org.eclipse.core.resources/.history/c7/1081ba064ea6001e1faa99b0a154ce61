@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class ControlStatement {
+public class Forloop {
 
-	int pid;
+	int i,n;
 	Scanner sc=new Scanner(System.in);
 	void get1()
 	{
@@ -10,7 +10,11 @@ public class ControlStatement {
 	}
 	public static void main(String[] args) {
 		
-		
+		int i,n=10;
+		for(i=0;i<=n;i++)
+		{
+			System.out.println("I value is::"+i);
+		}
 
 	}
 

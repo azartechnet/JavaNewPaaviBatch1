@@ -2,6 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="RunTimeInput"/>
     <fullyQualifiedTypeName name="java.io.DataInputStream"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ControlStatement"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
