@@ -34,7 +34,7 @@ public class Forloop {
 			}
 			else
 			{
-				System.out.println("Odd Number is::"+i);
+				
 			}
 		}
 	}
@@ -42,8 +42,7 @@ public class Forloop {
 		
 		Forloop f1=new Forloop();
 		//f1.get1();
-		//f1.get2();
-		f1.get3();
+		f1.get2();
 
 	}
 
