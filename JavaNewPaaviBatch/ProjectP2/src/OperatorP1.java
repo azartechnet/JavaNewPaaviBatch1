@@ -25,12 +25,22 @@ public class OperatorP1 {
 		System.out.println("LogicalOR::"+((a3<b3)||(b3<a3)));//True
 		System.out.println("LogicalNOT::"+(!(a3>b3)));//False
 	}
+	void bitwiseOperator()
+	{
+		int a=2,b=3;
+//		System.out.println("BitWiseAND::"+(a&b));
+//		System.out.println("BitWiseOR::"+(a|b));
+		System.out.println("LeftShift::"+(a<<2));
+		System.out.println("RightShift::"+(a>>1));
+		System.out.println("XOR::"+(a^b));
+	}
 	public static void main(String[] args) {
 		
 		OperatorP1 f1=new OperatorP1();
 		//f1.arithmeticOperators();
 		//f1.comparisionOperator();
-		f1.LogicalOperator();
+		//f1.LogicalOperator();
+		f1.bitwiseOperator();
 
 	}
 
