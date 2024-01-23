@@ -40,6 +40,14 @@ class Sample12
 			}
 		}
 	}
+	/*void factProgram()
+	{
+		int fact=1;
+		for()
+		{
+			
+		}
+	}*/
 }
 public class LoopingConcepts {
 
