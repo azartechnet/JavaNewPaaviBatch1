@@ -40,14 +40,39 @@ class Sample12
 			}
 		}
 	}
-	/*void factProgram()
+	void factProgram()
 	{
-		int fact=1;
-		for()
-		{
-			
-		}
-	}*/
+		
+		int a=10,b=20,t;
+//		t=a;
+//		a=b;
+//		b=t;
+//		System.out.println("Swap the value is::"+a+""+b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("Swap without 3rd variable is::"+a+""+b);
+		
+		
+	}
+	void fibo()
+	{
+		 int n, first = 0, second = 1, next, c;
+	      System.out.println("Enter the n value is::");
+	      n=sc.nextInt();
+	      for ( c = 0 ; c <=n ; c++ )
+	   {
+	      if ( c <= 1 )
+	         next = c;
+	      else
+	      {
+	         next = first + second;
+	         first = second;
+	         second = next;
+	      }
+	     System.out.println(next);
+	   }
+	}
 }
 public class LoopingConcepts {
 
@@ -56,7 +81,9 @@ public class LoopingConcepts {
 		Sample12 f1=new Sample12();
 		//f1.forloop();
 		//f1.forloopoddeven();
-		f1.nestedforloop();
+		//f1.nestedforloop();
+		//f1.factProgram();
+		f1.fibo();
 	}
 
 }
