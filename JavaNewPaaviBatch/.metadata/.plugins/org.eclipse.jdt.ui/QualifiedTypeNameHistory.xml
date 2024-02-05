@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="IfelseStatement"/>
     <fullyQualifiedTypeName name="WhileloopConcepts"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
