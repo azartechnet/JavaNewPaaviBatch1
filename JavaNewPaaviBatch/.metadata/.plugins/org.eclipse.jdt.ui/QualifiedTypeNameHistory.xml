@@ -12,4 +12,5 @@
     <fullyQualifiedTypeName name="ProductDAO"/>
     <fullyQualifiedTypeName name="ProductModel"/>
     <fullyQualifiedTypeName name="ProductImpl"/>
+    <fullyQualifiedTypeName name="Employee"/>
 </qualifiedTypeNameHistroy>
