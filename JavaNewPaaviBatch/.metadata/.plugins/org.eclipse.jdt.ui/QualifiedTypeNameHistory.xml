@@ -13,4 +13,6 @@
     <fullyQualifiedTypeName name="ProductModel"/>
     <fullyQualifiedTypeName name="ProductImpl"/>
     <fullyQualifiedTypeName name="Employee"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="SampleCollection"/>
 </qualifiedTypeNameHistroy>
