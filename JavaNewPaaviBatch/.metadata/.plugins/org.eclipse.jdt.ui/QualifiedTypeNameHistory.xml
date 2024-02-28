@@ -15,4 +15,8 @@
     <fullyQualifiedTypeName name="Employee"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="SampleCollection"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Demo12"/>
+    <fullyQualifiedTypeName name="Demo18"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
 </qualifiedTypeNameHistroy>
