@@ -3,11 +3,9 @@
     <fullyQualifiedTypeName name="RunTimeInput"/>
     <fullyQualifiedTypeName name="ControlStatement"/>
     <fullyQualifiedTypeName name="OperatorP1"/>
-    <fullyQualifiedTypeName name="java.io.DataInputStream"/>
     <fullyQualifiedTypeName name="DataInputStreamP1"/>
     <fullyQualifiedTypeName name="IfelseStatement"/>
     <fullyQualifiedTypeName name="WhileloopConcepts"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="ProductDAO"/>
     <fullyQualifiedTypeName name="ProductModel"/>
@@ -19,4 +17,7 @@
     <fullyQualifiedTypeName name="Demo12"/>
     <fullyQualifiedTypeName name="Demo18"/>
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.io.DataInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
