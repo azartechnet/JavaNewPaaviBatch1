@@ -24,4 +24,9 @@
     <fullyQualifiedTypeName name="Foo12"/>
     <fullyQualifiedTypeName name="Map"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="EmployeeDAO"/>
+    <fullyQualifiedTypeName name="EmployeeModel"/>
+    <fullyQualifiedTypeName name="EmployeeImpl"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="ArrayP1"/>
 </qualifiedTypeNameHistroy>
