@@ -46,11 +46,13 @@ public class AdminHomePage extends JFrame {
 		contentPane.add(lblNewLabel);
 		
 		JButton btnNewButton = new JButton("AddProduct");
-		btnNewButton.setBounds(219, 114, 116, 25);
+		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 12));
+		btnNewButton.setBounds(219, 114, 127, 36);
 		contentPane.add(btnNewButton);
 		
 		JButton btnAddcategory = new JButton("AddCategory");
-		btnAddcategory.setBounds(219, 188, 116, 25);
+		btnAddcategory.setFont(new Font("Tahoma", Font.BOLD, 12));
+		btnAddcategory.setBounds(219, 188, 127, 36);
 		contentPane.add(btnAddcategory);
 	}
 
