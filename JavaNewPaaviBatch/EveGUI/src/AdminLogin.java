@@ -82,30 +82,29 @@ public class AdminLogin extends JFrame {
 			{
 				try
 				{
-					String u1=textField.getText();
-					String p1=textField_1.getText();
-					String str="select * from admin";
+					String t1=textField.getText();
+					String t2=textField_1.getText();
+					String str1="select * from adminpage";
 					Class.forName("org.h2.Driver");
 					Connection conn=DriverManager.getConnection("jdbc:h2:tcp://localhost/~/javabatchevg","sa","");
 					Statement stmt=conn.createStatement();
-					ResultSet rs=stmt.executeQuery(str);
+					ResultSet rs=stmt.executeQuery(str1);
 					rs.next();
-					String uname=rs.getString(1);
-					String pass=rs.getString(2);
-					if(u1.equals(uname)&&p1.equals(pass))
+					String u1=rs.getString(1);
+					String p1=rs.getString(2);
+					if(t1.equals(u1)&&t2.equals(p1))
 					{
-						JOptionPane.showMessageDialog(btnNewButton, "LoginSuceess!!!");
 						new AdminHomePage().setVisible(true);
+						JOptionPane.showMessageDialog(btnNewButton,"LoginSucess!!!");
 					}
 					else
 					{
-						JOptionPane.showMessageDialog(btnNewButton,"LoginFail!!!");
+						JOptionPane.showMessageDialog(btnNewButton,"Failer!!!");
 					}
-					
 				}
 				catch(Exception t)
 				{
-					
+					System.out.println(t);
 				}
 			}
 		});
