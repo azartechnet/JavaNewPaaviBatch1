@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="Demo12"/>
     <fullyQualifiedTypeName name="Demo18"/>
     <fullyQualifiedTypeName name="java.io.DataInputStream"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="Foo12"/>
     <fullyQualifiedTypeName name="Map"/>
@@ -58,5 +57,6 @@
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="AdminLogin"/>
     <fullyQualifiedTypeName name="AdminHomePage"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>

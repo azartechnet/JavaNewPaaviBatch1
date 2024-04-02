@@ -4,9 +4,16 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
 import java.awt.Font;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.awt.event.ActionEvent;
 
 public class AddProduct extends JFrame {
 
@@ -79,7 +86,28 @@ public class AddProduct extends JFrame {
 		contentPane.add(textField_2);
 		textField_2.setColumns(10);
 		
-		JButton btnNewButton = new JButton("AddProduct");
+		final JButton btnNewButton = new JButton("AddProduct");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				try
+				{
+					int pid=Integer.parseInt(textField.getText());
+					String pname=textField_1.getText();
+					int pprice=Integer.parseInt(textField_2.getText());
+					String str2="insert into product values('"+pid+"','"+pname+"','"+pprice+"')";
+					Class.forName("org.h2.Driver");
+					Connection conn=DriverManager.getConnection("jdbc:h2:tcp://localhost/~/javabatchevg","sa","");
+					Statement stmt=conn.createStatement();
+					stmt.executeUpdate(str2);
+					JOptionPane.showMessageDialog(btnNewButton,"Inserted..");
+				}
+				catch(Exception t)
+				{
+					
+				}
+			}
+		});
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 12));
 		btnNewButton.setBounds(30, 347, 123, 30);
 		contentPane.add(btnNewButton);
