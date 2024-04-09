@@ -1,1 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="com.xyz.first.Employee" table="employeeData">
+<id name="id">
+<generator class="assigned"></generator>
+</id>
+<property name="firstName"></property>
+<property name="lastName"></property>
+</class>
+</hibernate-mapping>
