@@ -30,6 +30,10 @@ public class Exception1
 	   {
 		   System.out.println("Please check the value "+t);
 	   }
+	   finally
+	   {
+		   System.out.println("This is finally block");
+	   }
    }
 	public static void main(String[] args) {
 		
