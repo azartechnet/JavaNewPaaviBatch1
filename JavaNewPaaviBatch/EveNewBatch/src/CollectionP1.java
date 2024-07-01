@@ -20,6 +20,10 @@ class Sample
 		
 		System.out.println("After Remove the data is::"+list1);
 	}
+	public void setVisible(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 public class CollectionP1 {
 
