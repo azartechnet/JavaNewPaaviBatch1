@@ -4,8 +4,14 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.awt.event.ActionEvent;
 
 public class AddProduct extends JFrame {
 
@@ -74,7 +80,37 @@ public class AddProduct extends JFrame {
 		contentPane.add(textField_2);
 		textField_2.setColumns(10);
 		
-		JButton btnNewButton = new JButton("AddProduct");
+		final JButton btnNewButton = new JButton("AddProduct");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				try
+				{
+					String pid=textField.getText();
+					String pname=textField_1.getText();
+					String pprice=textField_2.getText();
+					String str1="insert into product values('"+pid+"','"+pname+"','"+pprice+"')";
+					 // Load MySQL JDBC Driver
+				    Class.forName("com.mysql.cj.jdbc.Driver");
+
+				    // Establish connection to the MySQL database
+				    Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/evedb", "root", "root");
+				    
+					Statement stmt=conn.createStatement();
+					
+					stmt.executeUpdate(str1);
+					
+					JOptionPane.showMessageDialog(btnNewButton,"LoginSucess!!");
+					
+					
+					
+				}
+				catch(Exception r)
+				{
+					
+				}
+			}
+		});
 		btnNewButton.setBounds(39, 341, 85, 21);
 		contentPane.add(btnNewButton);
 		
